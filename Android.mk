@@ -35,7 +35,8 @@ define PREBUILT_APP_template
 endef
 
 prebuilt_apps := \
-    MiracastSink
+    MiracastSink \
+    DLNA
 
 $(foreach app,$(prebuilt_apps), \
     $(eval $(call PREBUILT_APP_template, $(app),)))

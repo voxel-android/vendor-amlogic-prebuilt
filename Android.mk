@@ -37,7 +37,8 @@ endef
 prebuilt_apps := \
     MiracastSink \
     DLNA \
-    RC_Server
+    RC_Server \
+    OTAUpgrade
 
 $(foreach app,$(prebuilt_apps), \
     $(eval $(call PREBUILT_APP_template, $(app),)))

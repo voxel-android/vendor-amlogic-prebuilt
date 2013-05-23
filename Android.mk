@@ -40,5 +40,13 @@ prebuilt_apps := \
     RC_Server \
     OTAUpgrade
 
+#DOLBY_DAP
+ifdef DOLBY_DAP
+prebuilt_apps += \
+    Ds \
+    DsUI
+endif
+#DOLBY_DAP_END
+
 $(foreach app,$(prebuilt_apps), \
     $(eval $(call PREBUILT_APP_template, $(app),)))

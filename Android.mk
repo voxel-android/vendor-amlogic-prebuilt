@@ -38,7 +38,8 @@ prebuilt_apps := \
     MiracastSink \
     DLNA \
     RC_Server \
-    OTAUpgrade
+    OTAUpgrade \
+    AirPlay
 
 #DOLBY_DAP
 ifdef DOLBY_DAP

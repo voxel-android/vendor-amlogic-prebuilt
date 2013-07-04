@@ -39,7 +39,9 @@ prebuilt_apps := \
     DLNA \
     RC_Server \
     OTAUpgrade \
-    AirPlay
+    AirPlay \
+    xiamimusic \
+    Youku_TV_MoibleYoukuCom
 
 #DOLBY_DAP
 ifdef DOLBY_DAP

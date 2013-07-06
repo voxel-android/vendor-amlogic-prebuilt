@@ -35,7 +35,6 @@ define PREBUILT_APP_template
 endef
 
 prebuilt_apps := \
-    MiracastSink \
     DLNA \
     RC_Server \
     OTAUpgrade \

@@ -35,11 +35,12 @@ define PREBUILT_APP_template
 endef
 
 prebuilt_apps := \
-    MiracastSink \
     DLNA \
     RC_Server \
     OTAUpgrade \
-    AirPlay
+    AirPlay \
+    xiamimusic \
+    Youku_TV_MoibleYoukuCom
 
 #DOLBY_DAP
 ifdef DOLBY_DAP

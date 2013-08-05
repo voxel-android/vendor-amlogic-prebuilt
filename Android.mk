@@ -40,6 +40,7 @@ prebuilt_apps := \
     OTAUpgrade \
     AirPlay \
     xiamimusic \
+    MediaBoxLauncher \
     Youku_TV_MoibleYoukuCom
 
 #DOLBY_DAP

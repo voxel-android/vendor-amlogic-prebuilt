@@ -41,6 +41,7 @@ prebuilt_apps := \
     AirPlay \
     xiamimusic \
     MediaBoxLauncher \
+    MboxSetting \
     Youku_TV_MoibleYoukuCom
 
 #DOLBY_DAP

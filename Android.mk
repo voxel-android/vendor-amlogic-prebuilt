@@ -38,7 +38,6 @@ prebuilt_apps := \
     DLNA \
     RC_Server \
     OTAUpgrade \
-    AirPlay \
     MediaBoxLauncher \
     MboxSetting \
     xiamimusic

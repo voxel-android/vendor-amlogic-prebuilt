@@ -53,26 +53,5 @@ endif
 $(foreach app,$(prebuilt_apps), \
     $(eval $(call PREBUILT_APP_template, $(app),)))
 
-# ==============================================================================
-# MoreTV
-# ==============================================================================
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := MoreTV_Gen_0.2.9.apk
-LOCAL_SRC_FILES := MoreTV_Gen_0.2.9.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_PATH := $(TARGET_OUT)/app
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libluajava.so
-LOCAL_SRC_FILES := libluajava.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-include $(BUILD_PREBUILT)
-
 
 include $(call all-makefiles-under,$(LOCAL_PATH))

@@ -39,8 +39,7 @@ prebuilt_apps := \
     RC_Server \
     OTAUpgrade \
     MediaBoxLauncher \
-    MboxSetting \
-    xiamimusic
+    MboxSetting
 
 #DOLBY_DAP
 ifdef DOLBY_DAP

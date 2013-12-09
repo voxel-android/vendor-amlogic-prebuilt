@@ -39,7 +39,8 @@ prebuilt_apps := \
     RC_Server \
     OTAUpgrade \
     MediaBoxLauncher \
-    MboxSetting
+    MboxSetting \
+    PromptUser
 
 #DOLBY_DAP
 ifdef DOLBY_DAP

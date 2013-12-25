@@ -9,7 +9,7 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_REQUIRED_MODULES := com.google.android.tv.jar \
                           libuinputbridge.so
-LOCAL_MODULE_PATH := $(TARGET_OUT)/app
+LOCAL_MODULE_PATH := $(TARGET_OUT_APPS_PRIVILEGED)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -20,7 +20,7 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_REQUIRED_MODULES := com.google.android.tv.jar \
                           libuinputbridge.so
-LOCAL_MODULE_PATH := $(TARGET_OUT)/app
+LOCAL_MODULE_PATH := $(TARGET_OUT_APPS_PRIVILEGED)
 include $(BUILD_PREBUILT)
 # ============================================================
 include $(CLEAR_VARS)

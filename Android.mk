@@ -36,9 +36,7 @@ endef
 
 prebuilt_apps := \
     RC_Server \
-    OTAUpgrade \
     MediaBoxLauncher \
-    MboxSetting \
     PromptUser
 
 #DOLBY_DAP
@@ -51,16 +49,5 @@ endif
 
 $(foreach app,$(prebuilt_apps), \
     $(eval $(call PREBUILT_APP_template, $(app),)))
-
-#=================DLNA signature permission=============
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := DLNA.apk
-LOCAL_SRC_FILES := DLNA.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_PATH := $(TARGET_OUT_APPS_PRIVILEGED)
-include $(BUILD_PREBUILT)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))

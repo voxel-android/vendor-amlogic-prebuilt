@@ -37,7 +37,6 @@ endef
 prebuilt_apps := \
     RC_Server \
     MediaBoxLauncher \
-    HdmiINOverlay \
     PromptUser
 
 #DOLBY_DAP

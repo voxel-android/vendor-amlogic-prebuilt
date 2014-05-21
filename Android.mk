@@ -37,6 +37,7 @@ endef
 prebuilt_apps := \
     RC_Server \
     MediaBoxLauncher \
+    MboxBabyLauncher \
     PromptUser
 
 #DOLBY_DAP

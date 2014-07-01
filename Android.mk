@@ -36,7 +36,6 @@ endef
 
 prebuilt_apps := \
     RC_Server \
-    MediaBoxLauncher \
     MboxBabyLauncher \
     PromptUser
 

@@ -37,6 +37,7 @@ endef
 prebuilt_apps := \
     RC_Server \
     MboxBabyLauncher \
+    ExoPlayerDemo \
     PromptUser
 
 #DOLBY_DAP
